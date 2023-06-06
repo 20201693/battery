@@ -1,0 +1,54 @@
+{
+  "cab": [
+    {
+      "id":1,
+      "Name":"adil",
+      "Location": "pune",
+      "Battery_Details":{"Vehicle_Type":"2 wheeler","Battery_Percent":"60%","Battery_id":"15321"},
+      "order_details": "nickel-meta",
+      "Rating":"4"
+    },
+    {
+      "id":1,
+      "Name":"adil",
+      "Location": "pune",
+      "Battery_Details":{"Vehicle_Type":"2 wheeler","Battery_Percent":"60%","Battery_id":"15321"},
+      "order_details": "nickel-meta",
+      "Rating":"4"
+    },
+    {
+      "id":2,
+      "Name":"adil",
+      "Location": "pune",
+      "Battery_Details":{"Vehicle_Type":"2 wheeler","Battery_Percent":"60%","Battery_id":"15321"},
+      "order_details": "nickel-meta",
+      "Rating":"4"
+    },
+    {
+      "id":3,
+      "Name":"adil",
+      "Location": "pune",
+      "Battery_Details":{"Vehicle_Type":"2 wheeler","Battery_Percent":"60%","Battery_id":"15321"},
+      "order_details": "nickel-meta",
+      "Rating":"3"
+    },
+    {
+      "id":4,
+      "Name":"adil",
+      "Location": "pune",
+      "Battery_Details":{"Vehicle_Type":"2 wheeler","Battery_Percent":"60%","Battery_id":"15321"},
+      "order_details": "nickel-meta",
+      "Rating":"2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
