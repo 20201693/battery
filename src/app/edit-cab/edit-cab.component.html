@@ -1,0 +1,78 @@
+<div class="container allCab">
+    <mat-card>
+        <div>
+            <h2 style="text-align:center">Update user Details</h2>
+        </div>
+      <div>
+        <mat-form-field appearance="outline" class="form-elements">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Name" [(ngModel)]="userRecords.Name" />
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field appearance="outline" class="form-elements">
+          <mat-label>Location</mat-label>
+          <input
+            matInput
+            placeholder="Location"
+            [(ngModel)]="userRecords.Location"
+          />
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field appearance="outline" class="form-elements">
+          <mat-label>Battery_Details</mat-label>
+  
+          <input
+            matInput
+            placeholder="Vehicle_Type"
+            [(ngModel)]="userRecords.Battery_Details.Vehicle_Type"
+          />
+        </mat-form-field>
+          <mat-form-field appearance="outline" class="form-elements">
+  
+          <input
+            matInput
+            placeholder="Battery_Percent"
+            [(ngModel)]="userRecords.Battery_Details.Battery_Percent"
+          />
+          </mat-form-field>
+          <mat-form-field appearance="outline" class="form-elements">
+  
+          <input
+            matInput
+            placeholder="Battery_id"
+            [(ngModel)]="userRecords.Battery_Details.Battery_id"
+          />
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field appearance="outline" class="form-elements">
+          <mat-label>order_details</mat-label>
+          <input
+            matInput
+            placeholder="order_details"
+            [(ngModel)]="userRecords.order_details"
+          />
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field appearance="outline" class="form-elements">
+          <mat-label>Rating</mat-label>
+          <input matInput placeholder="Rating" [(ngModel)]="userRecords.Rating" />
+        </mat-form-field>
+      </div>
+  
+      <div>
+        <button
+          mat-raised-button
+          color="primary"
+          type="button"
+         (click)="updateRecords()"
+        >
+          update record
+        </button>
+      </div>
+    </mat-card>
+  </div>
+  

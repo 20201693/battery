@@ -1,0 +1,16 @@
+{
+  "cab": [
+    {
+      "id": 1,
+      "Name": "vaibhav",
+      "Location": "wagholi",
+      "Battery_Details": {
+        "Vehicle_Type": "duplicate",
+        "Battery_Percent": "90%",
+        "Battery_id": "4464334"
+      },
+      "order_details": "jbjgcABKG",
+      "Rating": "3"
+    }
+  ]
+}

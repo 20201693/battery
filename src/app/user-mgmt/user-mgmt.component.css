@@ -1,0 +1,14 @@
+table {
+    width: 80%;
+    margin-left: 50px
+  }
+
+  @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.star-icon {
+  color: gold;
+}
+
+.allCab{
+padding:20px
+}
